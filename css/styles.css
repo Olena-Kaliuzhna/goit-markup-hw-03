@@ -238,6 +238,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   width: 370px;
+  text-align: center;
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--primary-white-color);
   font-weight: 700;
@@ -250,13 +251,22 @@ body {
 
 /* Our-Team */
 
+.our-team-main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #F5F4FA;
+}
+
 .our-team {
   display: flex; 
+  background: #F5F4FA;
 }
 
 .our-team .item {
   width: calc((100%-90px)/4);
   margin-right: 30px;
+  border-radius: 0px 0px 4px 4px;
+  background: #FFFFFF;
 }
 
 .our-team .item:last-child {
@@ -297,6 +307,7 @@ body {
 }
 
 /* regular-customers */
+
 
 .customers {
   display: flex;
@@ -511,3 +522,5 @@ body {
   letter-spacing: 0.03em;
 
 } 
+
+
