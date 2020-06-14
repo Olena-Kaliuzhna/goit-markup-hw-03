@@ -43,6 +43,17 @@ body {
   padding-right: 15px;
  
 }
+
+.visually-hidden {
+	position: absolute ;
+	height: 1px; 
+  width: 1px; 
+  margin: -1px;
+	padding:0 ;
+	border:0 ;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
 /* css for index.html */
 
 /* page-header */
@@ -199,6 +210,7 @@ body {
 .features .features-icon {
   padding: 25px 100px;
   background-color: #F5F4FA; 
+  border-radius: 4px;
 }
 
 .features .features-icon {
@@ -330,9 +342,15 @@ body {
 }
 
 .customers>.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: calc((100% - 150px)/6);
   margin-right: 30px;
- 
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
 }
 
 .customers .item:last-child {
@@ -475,7 +493,9 @@ address {
   margin-right: 8px;
 }
 .filters-button {
+  padding: 6px 22px;
   border: transparent;
+  border-radius: 4px;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
