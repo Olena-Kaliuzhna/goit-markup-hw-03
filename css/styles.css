@@ -167,7 +167,8 @@ body {
 /* Features */
 
 .section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -225,6 +226,10 @@ body {
 
 
 /* What are we doing */
+
+.our-working-main {
+  padding-top: 0;
+}
 
 .works {
   display: flex;
