@@ -446,6 +446,10 @@ address {
 
 /* css for portfolio.html */
 
+.page-portfolio {
+  border-top: 1px solid #ECECEC;
+}
+
 /*  portfolio-filters */
 .filters-title {
   margin-top: 0;
@@ -463,19 +467,22 @@ address {
   justify-content: center;
   margin-top: 0;
   margin-bottom: 34px;
-  padding-bottom: 22px;
+  padding-bottom: 16px;
   
 }
-.filters-item {
+
+.filters .item:not(:last-child) {
   margin-right: 8px;
+}
+.filters-button {
   border: transparent;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
 
-.filters-item:hover,
-.filters-item:focus {
+.filters .item:hover,
+.filters .item:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
