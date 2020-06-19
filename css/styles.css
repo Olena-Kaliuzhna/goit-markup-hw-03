@@ -25,6 +25,7 @@ body {
 }
 
 .link {
+  margin: 0;
   color: var(--title-text-color);
   text-decoration: none;
 }
@@ -33,6 +34,12 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -209,15 +216,13 @@ body {
 
 .features .features-icon {
   padding: 25px 100px;
+  margin-bottom: 30px;
   background-color: #F5F4FA; 
   border-radius: 4px;
-}
+  }
 
-.features .features-icon {
-  margin-bottom: 30px;
-}
 
-.Features-title {
+.features-title {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--title-text-color); 
@@ -228,7 +233,7 @@ body {
   text-transform: uppercase;
 }
 
-.Features-dicription {
+.features-dicription {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
@@ -296,10 +301,11 @@ body {
   margin-right: 0;
 }
 
-.member-photo {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 30px;
+.team-label {
+  padding-top: 30px;
+  padding-bottom: 24px;
+  padding-right: 32px;
+  padding-left: 32px;
  } 
 
 .teams-member {
@@ -322,17 +328,19 @@ body {
   letter-spacing: 0.03em;
 }
 
+.social .link {
+  display: inline-block;
+} 
+
 .social {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 24px;
-  padding-right: 32px;
-  padding-left: 32px;
+  margin: 0; 
 }
 
 .social>.item:not(:last-child) {
   margin-right: 10px;
 }
+
 
 /* regular-customers */
 
@@ -347,7 +355,6 @@ body {
   align-items: center;
   width: calc((100% - 150px)/6);
   margin-right: 30px;
-  width: 170px;
   height: 90px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
@@ -363,8 +370,8 @@ body {
 
 .main-footer {
  background: #2F303A;
- padding-top: 45px;
- padding-bottom: 21px;
+ padding-top: 60px;
+ padding-bottom: 60px;
 }
 
 .page-footer {
@@ -375,14 +382,13 @@ body {
 
 .footer-contacts {
   margin-top: 0;
-  margin-bottom: 46px;
   margin-right: 69px;
 }
 
-.footer-contacts>a {
+.footer-contacts .logo.link {
   display: inline-block;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .logo-footer {
@@ -390,13 +396,12 @@ body {
   
 }
 
-address {
-  font-style: normal;
-}
+
 .address {
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
   color: var(--primary-white-color);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -408,6 +413,7 @@ address {
   margin-top: 0;
   margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -436,7 +442,7 @@ address {
 }
 
 .join, 
-.Subscribe {
+.subscribe {
   margin-bottom: 20px;
   color: var(--primary-white-color);
   font-weight: 700;
@@ -446,20 +452,6 @@ address {
   text-transform: uppercase;
 }
 
-/* footer-Developed-by */
-
-.Developed {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 18px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.03em;
-
-}
 
 
 /* css for portfolio.html */
