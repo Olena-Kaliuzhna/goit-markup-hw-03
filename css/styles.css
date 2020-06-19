@@ -64,6 +64,9 @@ img {
 /* css for index.html */
 
 /* page-header */
+.main-header {
+  border-bottom: 1px solid #ECECEC;
+}
 
 .page-header {
   display: flex;
@@ -457,9 +460,6 @@ img {
 
 /* css for portfolio.html */
 
-.page-portfolio {
-  border-top: 1px solid #ECECEC;
-}
 
 /*  portfolio-filters */
 .filters-title {
