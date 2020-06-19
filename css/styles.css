@@ -138,8 +138,10 @@ img {
 .nav-contacts .link:focus, 
 .social .link:hover,
 .social .link:focus,
-.footer-contacts:hover,
-.footer-contacts:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus,
 .footer-socials:hover,
 .footer-socials:focus  {
   color:var(--accent-color);
