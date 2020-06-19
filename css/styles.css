@@ -376,8 +376,7 @@ img {
 
 .page-footer {
   display: flex;
-  margin-bottom: 28px;
-  
+    
 }
 
 .footer-contacts {
@@ -396,9 +395,8 @@ img {
   
 }
 
-
 .address {
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 9px;
   color: var(--primary-white-color);
   font-style: normal;
@@ -408,7 +406,8 @@ img {
 
 }
 
-.footer-contacts {
+.footer-mail,
+.footer-tel {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 9px;
@@ -419,8 +418,8 @@ img {
   letter-spacing: 0.03em;
 
 }
-.footer-contacts.tel {
-  margin-bottom: 0;
+.footer-tel {
+  margin: 0;
 }
 
 /* footer-socials */
